@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: sans-serif; 
+    }
+    header{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        color:  #008080;
+        font-family: 'Playfair Display', serif;  
+        font-size: 2vw; 
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        background-color: #BFDCE4;
+        padding: 15px; 
+    }
+    nav ul li{
+        margin: 0 30px; 
+    }
+    nav ul li a{
+        color:  black;
+        text-decoration: none;
+        font: 300;
+    }
+    nav ul li a:hover{
+        color: white;
+    }
+    .gambar img{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .gambar p {
+        position: absolute;
+        color: black;
+        padding: 20px;
+    }
+
+    .teks h3{
+        padding: 10px 0px 15px 20px;
+    }
+    .teks h4{ 
+        padding: 10px 0px 10px 20px;
+    }
+    .teks p{
+        padding-left: 30px;
+    }
+    .teks ol{
+        padding-left: 50px;
+    }
+    .teks2 ol {
+        list-style-type: lower-alpha;
+        text-align: justify;
+        padding-right: 15px;
+    }
+    footer {
+        background-color: #008080; 
+        color: white; 
+        position: relative;
+        width: auto;
+        bottom: 0;
+    }
+    footer p {
+        text-align: center;
+        padding: 7px;
+    }
+
+    @media (max-width: 428px){
+        .teks2{
+            font-size: 13px;
+            padding-bottom: 190px;
+        }
+        footer p{
+            font-size: 12px;
+        }
+    }
+</style>
+<body>
+    <header>
+        <h1>Wisata Kesehatan Jamu Kalibakung</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="gambar">
+                <img src="img/www.png" alt="WKJ"><br>
+                <p>Selamat Datang di Situs Wisata Kesehatan Jamu Kalibakung Tegal</p>
+
+            </div>
+            <div class="teks">
+                <h3>Tujuan Wisata Kesehatan Jamu</h3>
+                <h4>1.Umum</h4>
+                <p>Terwujudnya wisata Kesehatan Jamu Kalibakung Kabupaten tegal</p>
+                <h4>2.Khusus</h4>
+                <ol class="teks2">
+                    <li>Mendorong pemanfaatan sumber daya alam (SDA) & Pengelolaan Potensi 
+                        alam tradisional secara berkelanjutan untuk digunakan sebagai jamu dalam upaya peningkatan yankes.</li>
+                    <li>Mendorong perekonomian kerakyatan bersumber wisata jamu secara lintas sektor agar mempunyai daya saing 
+                        sebagai sumber ekonomi masyarakat & PAD Kab Tegal.</li>
+                    <li>Tersedianya bahan baku dan jamu yang terjamin mutu khasiat dan keamanannya, teruji secara ilmiah melalui
+                         saintifikasi jamu.</li>
+                    <li>Tersedianya Pelayanan Kesehatan Komplementer dengan menggunakan bahan jamu yang telah tersaintifikasi</li>
+                </ol> <br>
+                
+            </div>
+</main>
+<footer>
+    <p>&copy; 2024 Wisata Kesehatan Jamu Kalibakung</p>
+</footer>
+</body>
+</html>
